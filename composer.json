@@ -13,5 +13,7 @@
             "email": "victor.lacsilva0102@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
 }
