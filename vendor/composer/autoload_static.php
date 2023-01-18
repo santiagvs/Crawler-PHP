@@ -22,7 +22,7 @@ class ComposerStaticInit24562c9540ec0967781eec843d229e87
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\DomCrawler\\' => 29,
             'Symfony\\Component\\CssSelector\\' => 30,
-            'Santiagvs\\BuscadorCursos\\' => 25,
+            'Santiagvs\\Searcher\\' => 19,
         ),
         'P' => 
         array (
@@ -58,7 +58,7 @@ class ComposerStaticInit24562c9540ec0967781eec843d229e87
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
-        'Santiagvs\\BuscadorCursos\\' => 
+        'Santiagvs\\Searcher\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -91,6 +91,7 @@ class ComposerStaticInit24562c9540ec0967781eec843d229e87
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -1,21 +1,21 @@
 {
-    "name": "santiagvs/buscador-cursos",
-    "description": "Projeto que busca os cursos no site da Alura",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Santiagvs\\BuscadorCursos\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Santiago",
-            "email": "victor.lacsilva0102@gmail.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.5",
-        "symfony/dom-crawler": "^6.2",
-        "symfony/css-selector": "^6.2"
+  "name": "santiagvs/buscador-cursos",
+  "description": "Projeto que busca os cursos no site da Alura",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Santiagvs\\Searcher\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Santiago",
+      "email": "victor.lacsilva0102@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.5",
+    "symfony/dom-crawler": "^6.2",
+    "symfony/css-selector": "^6.2"
+  }
 }
