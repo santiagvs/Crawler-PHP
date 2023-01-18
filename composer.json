@@ -22,5 +22,11 @@
     "phpunit/phpunit": "^9.5",
     "squizlabs/php_codesniffer": "^3.7",
     "phan/phan": "^5.4"
+  },
+  "scripts": {
+    "test": "phpunit tests",
+    "cs": "phpcs --standard=PSR12 src",
+    "fix-cbf": "phpcbf --standard=PSR12 src",
+    "phan": "phan --allow-polyfill-parser src/Searcher.php "
   }
 }
