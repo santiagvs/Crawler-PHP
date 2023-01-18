@@ -21,8 +21,6 @@ class Searcher
     $response = $this->httpClient->request('GET', $url);
     $html = $response->getBody();
 
-    echo str_contains($html, 'span.card-curso__nome');
-
     $this->crawler->addHtmlContent($html);
     $courseElements = $this->crawler->filter('span.card-curso__nome');
     $courses = [];
