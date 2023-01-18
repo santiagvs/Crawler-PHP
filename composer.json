@@ -27,6 +27,14 @@
     "test": "phpunit tests",
     "cs": "phpcs --standard=PSR12 src",
     "fix-cbf": "phpcbf --standard=PSR12 src",
-    "phan": "phan --allow-polyfill-parser src/Searcher.php "
+    "phan": "phan --allow-polyfill-parser src/Searcher.php ",
+    "check": [
+      "@phan",
+      "@cs",
+      "@test"
+    ]
+  },
+  "scripts-descriptions": {
+    "check": "Runs verification on code using Phan, PHP CodeSniffer and PHPUnit"
   }
 }
